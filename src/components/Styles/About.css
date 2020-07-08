@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: black
+}
+
+.whatido {
+    font-size: 25px;
+}
+
+.break {
+    border-top: 1px dashed white;
+}
+
+.social {
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.social a {
+    color: rgb(255, 219, 21);
+    font-size: 5em;
+    padding: 8px;
+}
