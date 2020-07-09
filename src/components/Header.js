@@ -1,11 +1,12 @@
-import React from 'react';
-import "../Styles/Header.css";
+import React,{  Component } from 'react';
+import "./Styles/Header.css";
 
-function Header() {
+class Header extends Component {
+render() {
     return (
      // Navbar
       <header id="home">
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-fixed-top affix-top">
           <div className="container">
             <button 
              className="navbar-toggler text-warning"
@@ -15,15 +16,15 @@ function Header() {
              aria-expanded="false" aria-label="Toggle navigation"
             >
               Menu
-              
             </button>
+            
             <a href="#home" className="navbar-brand ">
               <h1 className="font-italic">Vasavi</h1>
             </a> 
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item ">
-                <a href="#aboutme" className="nav-link" >About Me</a>
+                <a href="#about" className="nav-link" >About Me</a>
               </li>
               <li className="nav-item">
                 <a href="#portfolio" className="nav-link" >Portfolio</a>
@@ -33,13 +34,14 @@ function Header() {
               </li>
             </ul>
             </div>
+            
           </div>
         </nav>
       </header>
       
-
     );
 
+}
 }
 
 export default Header;
