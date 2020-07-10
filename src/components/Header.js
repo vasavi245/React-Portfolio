@@ -1,4 +1,5 @@
 import React,{  Component } from 'react';
+import data from "./myData";
 import "./Styles/Header.css";
 
 class Header extends Component {
@@ -31,6 +32,9 @@ render() {
               </li>
               <li className="nav-item">
                 <a href="#contact" className="nav-link" >Contact</a>
+              </li>
+              <li className="nav-item">
+                <a href={data.resume} target="_blannk" rel="noopener noreferrer" className="nav-link" >Resume</a>
               </li>
             </ul>
             </div>
