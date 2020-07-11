@@ -5,17 +5,13 @@ This is my Portfolio website created using React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   ## Table of Contents
   1. [Installation](#Installation)
-  2. [Usage](#Usage)
-  3. [Licence](#License)
-  4. [Contributing](#Contributing)
-  5. [Questions](#Questions)
-  6. [Links](#Links)
+  2. [Licence](#License)
+  3. [Contributing](#Contributing)
+  4. [Questions](#Questions)
+  5. [Links](#Links)
   ## Installation
   To install necessary dependencies, run the following commands:
-  * npm install 
-  ## Usage
-  Screenshot
-  
+  * npm install  
   ## Contributing
    UWA Coding Bootcamp
   ## License
@@ -24,7 +20,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * <img src="https://avatars0.githubusercontent.com/u/58574509?v=4" alt="avatar" style="border-radius: 16px" width="150" />
   If you have any questions about the repo, open an issue or contact [vasavi245](https://api.github.com/users/vasavi245) directly at r.vasavi04@gmail.com
   ## Links
-  * 
+  *  https://react-updatedportfolio.herokuapp.com/
+  *  https://github.com/vasavi245/React-Portfolio
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
