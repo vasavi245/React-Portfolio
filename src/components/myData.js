@@ -7,6 +7,9 @@ import image6 from "./Images/burger screenshot.PNG";
 let myData = {
   resume:
     "https://drive.google.com/file/d/12ZN7_KA8RDdgd6pexC3u8gM8mws01SMU/view?usp=sharing",
+  location: "Perth, Western Australia",
+  Phone: "0470303235",
+  email: "r.vasavi04@gmail.com",
   socialLinks: [
     {
       name: "Linkedin",

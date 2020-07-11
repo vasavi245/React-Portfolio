@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: black
+    background-color: black;
 }
 
 .whatido {
@@ -35,4 +35,8 @@
      margin: auto;
      margin-top: 3%;
      border: 3px dashed rgb(255, 219, 21);
+}
+.heading {
+    color: black;
+    font-size: 4.0rem;
 }

@@ -33,6 +33,9 @@ class About extends Component {
           </div>
         </div>
         <section className="container text-center">
+          <h1 className="aboutme-heading text-center font-bold font-italic">
+            About Me
+          </h1>
           <img src={profileimage} alt="profile" className="rounded-circle" />
           <p className="myinfo  font-weight-bold">
             I am Vasavi, graduated from JNT University with Becholer of Computer
