@@ -22,8 +22,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ## Links
   *  https://react-updatedportfolio.herokuapp.com/
   *  https://github.com/vasavi245/React-Portfolio
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
