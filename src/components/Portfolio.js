@@ -13,13 +13,16 @@ export default class Portfolio extends Component {
             <Fade left>
             <div className="card ">
               <div className="img-container">
-                <a
+                
+                  <img src={items.image} alt={items.title} className="port-image" />
+                  <div className="middle">
+                      <div className="text"><a
                   href={items.appurl}
                   target="_blank"
                   rel="noopener noreferrer"
-                >
-                  <img src={items.image} alt={items.title} />
-                </a>
+                >Website</a></div>
+                  </div>
+                
               </div>
               <div className="content">
                 <ul>
