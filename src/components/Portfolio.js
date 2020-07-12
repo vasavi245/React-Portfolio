@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 import "./Styles/Portfolio.css";
 
 // Portfolio component
@@ -6,9 +7,10 @@ export default class Portfolio extends Component {
   render() {
     let data = this.props.data;
     return (
-      <>
+        <>
         {data.projects.map((items) => {
           return (
+            <Fade left>
             <div className="card ">
               <div className="img-container">
                 <a
@@ -35,6 +37,7 @@ export default class Portfolio extends Component {
                 </ul>
               </div>
             </div>
+            </Fade>
           );
         })}
       </>

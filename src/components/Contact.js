@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import "./Styles/Contact.css";
 
 // Contact component
@@ -39,6 +40,7 @@ function Contact({
           </div>
         </div>
       </div>
+      <Fade right>
       <div className="container container-fluid rounded" id="contact">
         <form id="contact-form" onSubmit={handleSubmit} method="POST">
           <div className="form-group">
@@ -78,6 +80,7 @@ function Contact({
           </button>
         </form>
       </div>
+      </Fade>
     </section>
   );
 }

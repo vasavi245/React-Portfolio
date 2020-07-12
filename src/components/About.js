@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import image from "./Images/port-image.jpg";
 import profileimage from "./Images/sindhu-image.jpg";
+import Fade from "react-reveal/Fade";
 import data from "./myData";
 import "./Styles/About.css";
 
@@ -11,8 +12,9 @@ class About extends Component {
       <div id="about">
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
+            <Fade left>
             <img src={image} alt="about" className="img-fluid" />
-            <hr id="break" />
+            </Fade>
             <p className=" whatido text-center text-warning">
               HTML/CSS | Bootstrap | React | NodeJs | express | MySQL | MongoDB
             </p>
@@ -36,7 +38,9 @@ class About extends Component {
           <h1 className="aboutme-heading text-center font-bold font-italic">
             About Me
           </h1>
+          <Fade top>
           <img src={profileimage} alt="profile" className="rounded-circle" />
+          </Fade>
           <p className="myinfo  font-weight-bold">
             I am Vasavi, graduated from JNT University with Becholer of Computer
             Science and Engineering in 2011.Currently Pursuing certificate of
