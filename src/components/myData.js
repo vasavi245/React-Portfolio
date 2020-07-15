@@ -4,6 +4,7 @@ import image3 from "./Images/workout-tracker.PNG";
 import image4 from "./Images/imageempdir.PNG";
 import image5 from "./Images/Dayplanner.PNG";
 import image6 from "./Images/burger screenshot.PNG";
+import image7 from "./Images/google-books.PNG";
 let myData = {
   resume:
     "https://drive.google.com/file/d/12ZN7_KA8RDdgd6pexC3u8gM8mws01SMU/view?usp=sharing",
@@ -73,6 +74,14 @@ let myData = {
       image: image6,
       technology: "NodeJS, MySQL",
     },
+    {
+      id: "7",
+      title: "Google-Books-Search",
+      githuburl: "https://github.com/vasavi245/Google-Books",
+      appurl: "https://search4book.herokuapp.com/",
+      image: image7,
+      technology: "React, Mongo, express",
+    }
   ],
 };
 
