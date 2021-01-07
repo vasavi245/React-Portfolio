@@ -1,42 +1,41 @@
 .jumbotron {
-    background-color: black;
+  background-color: black;
 }
 
 .whatido {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #break {
-    border-top: 1px dashed white;
+  border-top: 1px dashed white;
 }
 
 .social {
-    display:flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-    
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
 .social a {
-    color: rgb(255, 219, 21);
-    font-size: 5em;
-    padding: 8px;
+  color: rgb(255, 219, 21);
+  font-size: 5em;
+  padding: 8px;
 }
 
 .myinfo {
-    font-size: 1.3em;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .divider {
-    width: 50%;
-     margin: auto;
-     margin-top: 3%;
-     border: 3px dashed rgb(255, 219, 21);
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  border: 3px dashed rgb(255, 219, 21);
 }
 .heading {
-    color: black;
-    font-size: 4.0rem;
+  color: black;
+  font-size: 4rem;
 }

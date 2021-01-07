@@ -5,6 +5,7 @@ import image4 from "./Images/imageempdir.PNG";
 import image5 from "./Images/Dayplanner.PNG";
 import image6 from "./Images/burger screenshot.PNG";
 import image7 from "./Images/google-books.PNG";
+import image0 from "./Images/Project3.PNG";
 let myData = {
   resume:
     "https://drive.google.com/file/d/12ZN7_KA8RDdgd6pexC3u8gM8mws01SMU/view?usp=sharing",
@@ -24,6 +25,14 @@ let myData = {
     },
   ],
   projects: [
+    {
+      id: "0",
+      title: "Life-Saver",
+      githuburl: "https://github.com/vasavi245/Life-Saver",
+      appurl: "https://all-about-blood.herokuapp.com/",
+      image: image0,
+      technology: "ReactJS, express, MongoDB",
+    },
     {
       id: "1",
       title: "Gratitute-Journal",
@@ -48,7 +57,7 @@ let myData = {
       githuburl: "https://github.com/vasavi245/workout-tracker",
       appurl: "https://shielded-forest-55168.herokuapp.com/",
       image: image3,
-      technology: "Mongoose, express",
+      technology: "MongoDB, express",
     },
     {
       id: "4",
@@ -56,7 +65,7 @@ let myData = {
       githuburl: "https://github.com/vasavi245/Employee-Directory",
       appurl: "https://upper-doright-59763.herokuapp.com/",
       image: image4,
-      technology: "React",
+      technology: "ReactJS",
     },
     {
       id: "5",
@@ -80,8 +89,8 @@ let myData = {
       githuburl: "https://github.com/vasavi245/Google-Books",
       appurl: "https://search4book.herokuapp.com/",
       image: image7,
-      technology: "React, Mongo, express",
-    }
+      technology: "ReactJS, Mongo, express",
+    },
   ],
 };
 

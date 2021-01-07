@@ -13,7 +13,7 @@ class About extends Component {
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <Fade left>
-            <img src={image} alt="about" className="img-fluid" />
+              <img src={image} alt="about" className="img-fluid" />
             </Fade>
             <p className=" whatido text-center text-warning">
               HTML/CSS | Bootstrap | React | NodeJs | express | MySQL | MongoDB
@@ -39,12 +39,12 @@ class About extends Component {
             About Me
           </h1>
           <Fade top>
-          <img src={profileimage} alt="profile" className="rounded-circle" />
+            <img src={profileimage} alt="profile" className="rounded-circle" />
           </Fade>
           <p className="myinfo  font-weight-bold">
             I am Vasavi, graduated from JNT University with Becholer of Computer
-            Science and Engineering in 2011.Currently Pursuing certificate of
-            Full Stack Development (Coding Bootcamp) with University of Western
+            Science and Engineering in 2011. Pursued certificate of
+            Full Stack Development (Coding Bootcamp) with The University of Western
             Australia.
           </p>
           <p className="myinfo  font-weight-bold">

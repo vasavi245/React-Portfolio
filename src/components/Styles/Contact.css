@@ -1,14 +1,12 @@
-#contact{
-    width:100%;
-    background-color: black;
-    border: 3px;
-    
+#contact {
+  width: 100%;
+  background-color: black;
+  border: 3px;
 }
-
 .contact-form {
-    color: white;
+  color: white;
 }
 .contact-heading {
-    color: black;
-    font-size: 4.0rem;
+  color: black;
+  font-size: 4rem;
 }

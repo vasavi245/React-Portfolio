@@ -1,20 +1,20 @@
 .navbar {
-    background-color: black;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
   overflow: hidden;
   z-index: 1;
-  width: 100%; 
+  width: 100%;
   margin: auto;
   top: 0;
   opacity: 0.9;
 }
 .nav-link {
-    color: rgb(255, 219, 21);
+  color: rgb(255, 219, 21);
 }
-.navbar-brand{
-    color: rgb(255, 219, 21);
+.navbar-brand {
+  color: rgb(255, 219, 21);
 }
