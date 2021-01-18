@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
       <>
         {data.projects.map((items) => {
           return (
-            <Fade left>
+            <Fade left key={items.id}>
               <div className="card">
                 <div className="img-container">
                   <img

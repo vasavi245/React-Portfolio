@@ -58,7 +58,9 @@ class App extends React.Component {
     return (
       <Router>
         <Header />
+        <div id="about">
         <About />
+        </div>
         <PortfolioWrapper>
           <PortfolioTitle>
             <section id="portfolio">
@@ -71,12 +73,14 @@ class App extends React.Component {
           <Portfolio data={data} />
         </PortfolioWrapper>
         <hr className="divider" />
+        <div id="contact">
         <Contact
           onSubmit={this.handleSubmit}
           onNameChange={this.handleNameChange}
           onEmailChange={this.handleEmailChange}
           onMessageChange={this.handleMessageChange}
         />
+        </div>
         <Footer />
       </Router>
     );

@@ -1,11 +1,8 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import "./Styles/Contact.css";
 
 // Contact component
-function Contact({
-  
-}) {
+function Contact() {
   return (
     <section>
       <h1 className="contact-heading text-center font-bold font-italic">
