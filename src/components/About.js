@@ -10,30 +10,6 @@ class About extends Component {
   render() {
     return (
       <div id="about">
-        <div className="jumbotron jumbotron-fluid">
-          <div className="container">
-            <Fade left>
-              <img src={image} alt="about" className="img-fluid" />
-            </Fade>
-            <p className=" whatido text-center text-warning">
-              HTML/CSS | Bootstrap | React | NodeJs | express | MySQL | MongoDB
-            </p>
-            <div className="social">
-              {data.socialLinks.map((item) => {
-                return (
-                  <a
-                    key={item.name}
-                    href={item.url}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className={item.className}></i>
-                  </a>
-                );
-              })}
-            </div>
-          </div>
-        </div>
         <section className="container text-center">
           <h1 className="aboutme-heading text-center font-bold font-italic">
             About Me
@@ -41,6 +17,7 @@ class About extends Component {
           <Fade top>
             <img src={profileimage} alt="profile" className="rounded-circle" />
           </Fade>
+          <div className="info">
           <p className="myinfo  font-weight-bold">
             I am Vasavi, graduated from JNT University with Becholer of Computer
             Science and Engineering in 2011. Pursued certificate of
@@ -54,6 +31,7 @@ class About extends Component {
             to detail, assessing situations and proposing well considered
             solutions, I enjoy developing solutions that address the challenges.
           </p>
+          </div>
         </section>
         <hr className="divider" />
       </div>

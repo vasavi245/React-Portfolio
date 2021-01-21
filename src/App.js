@@ -10,6 +10,7 @@ import PortfolioWrapper from "./components/PortfolioWrapper";
 import PortfolioTitle from "./components/PortfolioTitle";
 import axios from "axios";
 import "./App.css";
+import Jumbotron from "./components/Jumbotron";
 
 // trying on to contact from submit still had to handle this in express(future development)
 class App extends React.Component {
@@ -58,6 +59,9 @@ class App extends React.Component {
     return (
       <Router>
         <Header />
+        <div id="jumbotron">
+          <Jumbotron />
+        </div>
         <div id="about">
         <About />
         </div>
@@ -72,14 +76,10 @@ class App extends React.Component {
           </PortfolioTitle>
           <Portfolio data={data} />
         </PortfolioWrapper>
-        <hr className="divider" />
+     
         <div id="contact">
-        <Contact
-          onSubmit={this.handleSubmit}
-          onNameChange={this.handleNameChange}
-          onEmailChange={this.handleEmailChange}
-          onMessageChange={this.handleMessageChange}
-        />
+        <hr className="divider" />
+        <Contact />
         </div>
         <Footer />
       </Router>

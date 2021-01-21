@@ -5,7 +5,8 @@ import "./Styles/Contact.css";
 function Contact() {
   return (
     <section>
-      <h1 className="contact-heading text-center font-bold font-italic">
+         
+      <h1 className="contact-heading text-center font-italic">
         Contact
       </h1>
       <div className="row">

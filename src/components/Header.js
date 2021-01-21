@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import data from "./myData";
 import "./Styles/Header.css";
 
-class Header extends Component {
+class Header extends Component { 
   render() {
     return (
       // Navbar
       <header id="home">
-        <nav className="navbar navbar-expand-lg navbar-fixed-top affix-top">
+        <nav id="nav" className="navbar navbar-expand-lg navbar-fixed-top affix-top" >
           <div className="container">
             <button
               className="navbar-toggler text-warning"
@@ -26,7 +26,7 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item ">
-                  <a href="#about" className="nav-link">
+                  <a href="#about"  className="nav-link">
                     About Me
                   </a>
                 </li>

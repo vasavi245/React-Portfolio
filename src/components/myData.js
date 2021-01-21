@@ -8,7 +8,7 @@ import image7 from "./Images/google-books.PNG";
 import image0 from "./Images/Project3.PNG";
 let myData = {
   resume:
-    "https://drive.google.com/file/d/12ZN7_KA8RDdgd6pexC3u8gM8mws01SMU/view?usp=sharing",
+    "https://docs.google.com/document/d/1EuShDSfgHT181LDOquvi12HyU_6uJerR8KP_fyQxU_w/edit?usp=sharing",
   location: "Perth, Western Australia",
   Phone: "0470303235",
   email: "r.vasavi04@gmail.com",

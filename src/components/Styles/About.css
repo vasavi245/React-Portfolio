@@ -35,7 +35,11 @@
   margin-top: 3%;
   border: 3px dashed rgb(255, 219, 21);
 }
-.heading {
+.aboutme-heading {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
   color: black;
   font-size: 4rem;
 }
