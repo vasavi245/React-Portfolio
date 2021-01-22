@@ -19,7 +19,7 @@ class About extends Component {
           </Fade>
           <div className="info">
           <p className="myinfo  font-weight-bold">
-            I am Vasavi, graduated from JNT University with Becholer of Computer
+            I am Vasavi, graduated from JNT University with Bachelor of Computer
             Science and Engineering in 2011. Pursued certificate of
             Full Stack Development (Coding Bootcamp) with The University of Western
             Australia.
