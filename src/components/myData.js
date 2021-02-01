@@ -9,6 +9,8 @@ import image0 from "./Images/Project3.PNG";
 let myData = {
   resume:
     "https://docs.google.com/document/d/1EuShDSfgHT181LDOquvi12HyU_6uJerR8KP_fyQxU_w/edit?usp=sharing",
+  coverletter:
+  "https://drive.google.com/file/d/1AHuHhStuLQV4opYhEH-9UAk7k-dBOLGO/view?usp=sharing",
   location: "Perth, Western Australia",
   Phone: "0470303235",
   email: "r.vasavi04@gmail.com",

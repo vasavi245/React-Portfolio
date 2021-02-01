@@ -50,6 +50,16 @@ class Header extends Component {
                     Resume
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a
+                    href={data.coverletter}
+                    target="_blannk"
+                    rel="noopener noreferrer"
+                    className="nav-link"
+                  >
+                    Cover Letter
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
